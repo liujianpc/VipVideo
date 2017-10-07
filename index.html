@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Description" content="vip视频" />
+		<meta name="Keywords" content="vip视频" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<title>坚果vip视频</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+						<h3 class="text-info text-center">
+vip视频破解
+			</h3>
+					<div class="alert alert-dismissable alert-success">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+							<h4>
+
+				注意!
+
+				</h4>  <strong>使用方法:</strong>找到你需要观看的视频链接,复制到本站的播放地址栏,点击立即播放即可!本站支持手机、平板、PC观看
+						<br />	<strong>免责声明:</strong>本站不保存资源，所有资源均来自网络，如有侵权，请及时通知本人。最后希望大家能多支持正版!
+						<br />	<strong>email:</strong><a href="mailto:ljlovelife@foxmail.com">给本站作者发邮件</a>
+					</div>
+					<form method="get">
+						<div class="input-group" style="width: 100%;">	<span class="input-group-addon input-lg" style="width: 80px;">切换线路</span>
+							<select id="videoOption" class="form-control input-lg" name="value">
+								
+								<option value="http://aikan-tv.com/?url=">aikan解析(推荐)</option>
+								<option value="http://api.662820.com/xnflv/index.php?url=">662820.com(推荐)</option>
+								<option value="http://www.wmxz.wang/video.php?url=">无名小站(推荐)</option>
+								<option value="http://api.baiyug.cn/vip/index.php?url=">全网视频vip接口②(推荐)</option>
+								<option value="http://api.xfsub.com/index.php?url=">无广告解析（超清）</option>
+								<option value="https://jiexi.071811.cc/jx.php?url=">通用vip接口④切换线路四（支持爱奇艺原画/腾讯超清)</option>
+								<option value="http://api.nepian.com/ckparse/?url=">通用vip接口⑤</option>
+								<option value="http://000o.cc/jx/ty.php?url=">支持腾讯最好的</option>
+							</select>
+						</div>
+						<br>
+						<div class="input-group" style="width: 100%;">	<span class="input-group-addon input-lg" style="width: 80px;">视频地址</span>
+							<input id="videoSrc" class="form-control input-lg" type="text" name="url" placeholder="输入播放地址">
+						</div>
+						<br>
+					</form>
+					<div>
+						<button id="playButton" class="btn btn-success btn-lg btn-block" type="button">立即播放</button>
+					</div>
+					<script type="text/javascript">
+						//function getSrc(){
+								/*var videoFrame = document.getElementById("#videoFrame");
+								var videoOption = document.getElementById("#videoOption");
+								var videoSrc = document.getElementById("#videoSrc");
+								alert("fuck");*/
+								$("#playButton").click(function(){
+									var videoOption = $("#videoOption").val();		
+									var videoSrc = $("#videoSrc").val();
+									//alert(videoOption+videoSrc);
+									$("#videoFrame").attr("src",videoOption+videoSrc);
+									//alert("fuck");
+									//return false;
+				});
+								//return false;
+						//	}
+					</script>
+					<div class="col-md-14 column">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<iframe id="videoFrame" width="100%" height="500px" allowtransparency="true" frameborder="0" scrolling="no" src="http://aikan-tv.com/?url=http://www.iqiyi.com/v_19rr9tqg20.html?fc=87bbded392d221f5"></iframe>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div style="text-align: center;margin-top:30px" >
+			<span style="font-size:13px;">© 2016 - 2017 坚果（Jingle）. All Rights Reserved</span>
+			</div>
+		</div>
+	</body>
+
+</html>
